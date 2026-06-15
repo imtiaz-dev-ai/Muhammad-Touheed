@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Muhammad Touheed - SEO Expert & WordPress Developer">
+  <title>Contact | Muhammad Touheed</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="logo">M.<span>Touheed</span></a>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    <ul id="nav-menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Get In <span>Touch</span></h1>
+    <p>Let's connect and create something powerful — together</p>
+  </div>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+          <h3>Let's Work <span style="color:var(--accent);">Together</span></h3>
+          <p>Whether you need SEO services, content writing, a new website, or just want to learn — I'm here to help. Reach out through any channel below.</p>
+
+          <div class="contact-item">
+            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <div style="font-size:0.8rem; color:rgba(255,255,255,0.5); margin-bottom:2px;">WhatsApp (Fastest Response)</div>
+              <a href="https://wa.me/923019037741" target="_blank">+92 301 9037741</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div style="font-size:0.8rem; color:rgba(255,255,255,0.5); margin-bottom:2px;">Email</div>
+              <span style="color:rgba(255,255,255,0.4); font-size:0.95rem;">Coming soon</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <div style="font-size:0.8rem; color:rgba(255,255,255,0.5); margin-bottom:2px;">LinkedIn</div>
+              <a href="https://www.linkedin.com/in/muhammad-touheed-7295093a2" target="_blank">linkedin.com/in/muhammad-touheed</a>
+            </div>
+          </div>
+
+          <div style="margin-top:35px;">
+            <h4 style="margin-bottom:15px; font-size:1rem; color:rgba(255,255,255,0.7);">Quick Connect</h4>
+            <div style="display:flex; gap:12px; flex-wrap:wrap;">
+              <a href="https://wa.me/923019037741" target="_blank" class="btn btn-primary">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-touheed-7295093a2" target="_blank" class="btn btn-outline">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- AVAILABILITY -->
+          <div style="margin-top:35px; background:var(--card-bg); border:1px solid rgba(255,255,0,0.15); border-radius:12px; padding:20px;">
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+              <span style="width:10px; height:10px; background:#4ade80; border-radius:50%; display:inline-block;"></span>
+              <span style="font-weight:600;">Currently Available</span>
+            </div>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.88rem;">Taking new SEO, content writing, and web design projects. Typical response time: within 2–4 hours on WhatsApp.</p>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div>
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="seo">On-Page SEO</option>
+                <option value="content">Content Writing</option>
+                <option value="web">Web Designing</option>
+                <option value="training">SEO Training</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget...</option>
+                <option>Under PKR 5,000</option>
+                <option>PKR 5,000 – 15,000</option>
+                <option>PKR 15,000 – 30,000</option>
+                <option>$100 – $250 (USD)</option>
+                <option>$250+ (USD)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project or what you need help with..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem;">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p style="text-align:center; color:rgba(255,255,255,0.4); font-size:0.82rem; margin-top:8px;">
+              Or reach me directly on <a href="https://wa.me/923019037741" target="_blank" style="color:var(--accent); text-decoration:none;">WhatsApp</a> for fastest response.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="padding:70px 20px; background:#000;">
+    <div class="container" style="max-width:700px;">
+      <div class="section-title">
+        <h2>Frequently Asked <span>Questions</span></h2>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div style="background:var(--card-bg); border:1px solid rgba(255,255,255,0.08); border-radius:12px; padding:22px;">
+          <h4 style="margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--accent); margin-right:8px;"></i>How quickly do you respond?</h4>
+          <p style="color:rgba(255,255,255,0.65); font-size:0.93rem;">I typically respond within 2–4 hours on WhatsApp. For emails, expect a reply within 24 hours.</p>
+        </div>
+        <div style="background:var(--card-bg); border:1px solid rgba(255,255,255,0.08); border-radius:12px; padding:22px;">
+          <h4 style="margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--accent); margin-right:8px;"></i>Do you work with international clients?</h4>
+          <p style="color:rgba(255,255,255,0.65); font-size:0.93rem;">Yes! I work with clients from all over the world. Payment can be done via international methods for overseas clients.</p>
+        </div>
+        <div style="background:var(--card-bg); border:1px solid rgba(255,255,255,0.08); border-radius:12px; padding:22px;">
+          <h4 style="margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--accent); margin-right:8px;"></i>Can I request a custom package?</h4>
+          <p style="color:rgba(255,255,255,0.65); font-size:0.93rem;">Absolutely! Every project is unique. Message me and we'll create a custom plan that fits your needs and budget.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">M.<span>Touheed</span></div>
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; 2025 Muhammad Touheed. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
